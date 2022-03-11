@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;500&family=Lateef&display=swap');
+.detail-title{
+      font-family: 'Hind Siliguri', sans-serif;
+}
+
+@media only screen and (max-width: 768px){
+       .detail-title{
+             font-size: 20px;
+       }
+       .detail-text{
+             font-size: 15px;
+       }
+    }
+    @media only screen and (max-width: 600px){
+      .detail-title{
+            font-size: 18px;
+      }
+      .detail-text{
+            font-size: 12px;
+      }
+   }
+   @media only screen and (max-width: 500px){
+      .detail-title{
+            font-size: 16px;
+      }
+      .detail-text{
+            font-size: 13px;
+      }
+   }
+   @media only screen and (max-width: 400px){
+      .detail-title{
+            font-size: 15px;
+      }
+      .detail-text{
+            font-size: 13px;
+      }
+   }
